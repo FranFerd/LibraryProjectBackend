@@ -1,7 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS
 from functions.book_author_service import Book_author_service
-from werkzeug.formparser import parse_form_data
 
 app = Flask(__name__)
 CORS(app)  # Global CORS configuration

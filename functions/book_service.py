@@ -1,5 +1,5 @@
 import mysql.connector
-from functions.books import book_json_response
+from functions import book_json_response
 from functions.data_class import Book, Db_config
 
 class Book_service():
